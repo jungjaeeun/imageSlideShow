@@ -17,7 +17,7 @@ android:orientation="vertical"
     android:orientation="horizontal"
     >
     <Button
-        android:id="@+id/bit_start"
+        android:id="@+id/but_start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/but_text_start"
@@ -25,11 +25,24 @@ android:orientation="vertical"
         />
 
     <Button
-        android:id="@+id/bit_stop"
+        android:id="@+id/but_stop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/but_text_stop"
         />
+
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:id="@+id/edit_text"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/second"/>
 
 </LinearLayout>
 <ViewFlipper
